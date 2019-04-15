@@ -6,7 +6,7 @@ Algoritmo "Lista 1 - Questão 3"
 // Data atual  : 18/03/2019
 Var
 // Seção de Declarações das variáveis 
-n1, n2: inteiro
+n1, n2, n3: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -16,6 +16,11 @@ escreval("Digite o segundo valor")
 leia(n2)
 
 escreval("Os valores digitados foram ", n1, " e ", n2, " respectivamente")
-escreval("Os valores de forma contrária ao digitado são ", n2, " e ", n1)
+
+n3 <- n1
+n1 <- n2
+n2 <- n3
+
+escreval("Os valores de forma contrária ao digitado são ", n1, " e ", n2)
 
 Fimalgoritmo
