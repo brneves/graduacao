@@ -8,7 +8,7 @@ enquanto numero < 1000 faca
    escreval("Informe o número")
    leia(numero)
 
-   se numero < 0 entao
+   se numero >= 0 entao
       se (numero mod 2 = 0) entao
          escreval("O número ", numero, " é par")
       senao
