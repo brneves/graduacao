@@ -11,7 +11,7 @@ altura, peso, totalAlt, media, porcent : real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-para i de 1 ate 3 faca
+para i de 1 ate 50 faca
    escreval("Informe a idade da pessoa", i)
    leia(idade)
    
