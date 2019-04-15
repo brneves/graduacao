@@ -6,10 +6,26 @@ Algoritmo "LISTA 2 - QUESTÃO 8"
 // Data atual  : 15/04/2019
 Var
 // Seção de Declarações das variáveis 
-idade, altura
+idade, i : inteiro
+altura, total, media : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 
+enquanto idade >= 0 faca
+   escreval("Informe a idade")
+   leia(idade)
+   escreval("Informe a altura")
+   leia(altura)
+   
+   se idade > 50 entao
+      total <- total + altura
+      i <- i + 1
+   fimse
+   
+fimenquanto
+
+media <- total / i
+
+escreval("A média da idade de ", i, " pessoas é", media)
 
 Fimalgoritmo
