@@ -11,7 +11,7 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   para i de 1 ate 2 faca
+   para i de 1 ate 45 faca
       escreval("Informe a quantidade do produto ", i)
       leia(q)
       
