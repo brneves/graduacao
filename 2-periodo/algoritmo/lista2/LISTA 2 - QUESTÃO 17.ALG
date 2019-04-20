@@ -13,7 +13,7 @@ idade, i, qtC, qtS, qtV, qtD, sumIdade : inteiro
 porcent, media : real
 
 Inicio
-para i de 1 ate 3 faca
+para i de 1 ate 20 faca
    escreval("Informe a idade")
    leia(idade)
    escreval("Informe o estado civil: C - casado, S - solteiro, V - viúvo e D - desquitado ou separado")
